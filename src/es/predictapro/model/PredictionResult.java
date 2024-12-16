@@ -30,4 +30,35 @@ public class PredictionResult {
         this.predictedValue = predictedValue;
         this.message = message;
     }
+
+
+    /**
+     * Gets the predicted value.
+     *
+     * @return The numerical value of the prediction.
+     */
+    public double getPredictedValue() {
+        return predictedValue;
+    }
+
+
+    /**
+     * Gets the message associated with the prediction result.
+     *
+     * @return A descriptive message about the prediction.
+     */
+    public String getMessage() {
+        return message;
+    }
+
+
+    /**
+     * Converts the prediction result to a readable string format.
+     *
+     * @return A string representation of the prediction result, including the value and message.
+     */
+    @Override
+    public String toString() {
+        return "PredictionResult{predictedValue=" + predictedValue + ", message='" + message + "'}";
+    }
 }
