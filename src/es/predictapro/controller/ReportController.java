@@ -30,4 +30,18 @@ public class ReportController {
     public ReportController(VisualizationService visualizationService) {
         this.visualizationService = visualizationService;
     }
+
+
+    /**
+     * Generates a report from the given data.
+     * <p>
+     * This method delegates the report generation task to the {@link VisualizationService}.
+     * </p>
+     *
+     * @param data A list of {@link DataPoint} objects to be included in the report.
+     * @return A {@link String} representing the formatted report.
+     */
+    public String generateReport(List<DataPoint> data) {
+        return visualizationService.generateReport(data);
+    }
 }
