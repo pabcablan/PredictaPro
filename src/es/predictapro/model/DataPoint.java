@@ -36,4 +36,46 @@ public class DataPoint {
         this.value = value;
         this.timestamp = timestamp;
     }
+
+
+
+    /**
+     * Gets the ID of the data point.
+     *
+     * @return The unique identifier of the data point.
+     */
+    public int getId() {
+        return id;
+    }
+
+
+    /**
+     * Gets the value of the data point.
+     *
+     * @return The numerical value of the data point.
+     */
+    public double getValue() {
+        return value;
+    }
+
+
+    /**
+     * Gets the timestamp of the data point.
+     *
+     * @return The time at which the data point was recorded, in milliseconds.
+     */
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+
+    /**
+     * Converts the data point to a readable string format.
+     *
+     * @return A string representation of the data point, including its ID, value, and timestamp.
+     */
+    @Override
+    public String toString() {
+        return "DataPoint{id=" + id + ", value=" + value + ", timestamp=" + timestamp + "}";
+    }
 }
