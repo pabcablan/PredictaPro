@@ -4,7 +4,6 @@
 PredictaPro is a modular and efficient application designed to process, analyze, and visualize data intuitively. It provides essential functionalities for handling datasets and supports users in cleaning, 
 analyzing, and predicting trends from data. PredictaPro is in its initial version and aims to be a user-friendly and flexible tool for datasets of any size.
 
----
 
 ## **Key Features**
 ### 1. **Data Cleaning**
@@ -31,7 +30,6 @@ Calculates statistical metrics for cleaned datasets:
 - Minimum and maximum values.
 - Range of data.
 
----
 
 ## **Upcoming Features**
 PredictaPro is in its initial version. Future releases will include:
@@ -40,7 +38,6 @@ PredictaPro is in its initial version. Future releases will include:
 - **Export Options:** Ability to save reports as PDF or Excel files.
 - **Advanced Analytics:** Inclusion of metrics like medians, percentiles, and correlation coefficients.
 
----
 
 ## **Example of Usage**
 ### **Input Data**
@@ -74,7 +71,7 @@ Maximum Value: 20.00
 Minimum Value: 10.50  
 Range of Values: 9.50  
 ```
----
+
 
 ## **System Requirements**
 - **Java JDK 8** or higher.
@@ -84,7 +81,7 @@ Range of Values: 9.50
     - **NetBeans**
 - **Operating System:** Compatible with Windows, macOs, and Linux
 
----
+
 
 ## **Getting Started**
 ### **Installation**
@@ -98,31 +95,31 @@ git clone https://github.com/pabcablan/PredictaPro.git
 1. Compile the project.
 2. Run the main class: ``Main.java.``
 
----
+
 
 ## **Applications of the Software**
 - **Data Cleaning and Processing:** Eliminate outliers and prepare data for deeper analysis.
 - **Quick Reporting:** Generate clear, readable tabular reports comparing raw and cleaned data.
 - **Future Predictions:** Use predictive insights for trend analysis.
 
----
+
 
 ## **Benefits of PredicTaPro**
 - **Modularity:** Easily expandable and adaptable to new requirements.
 - **Simplicity:** Designed with an intuitive structure for users of all levels.
 - **Performance:** Efficiently handles large datasets with minimal delay.
 
----
+
 
 ## **Project Status**
 PredictaPro is currently in its initial release. The focus has been on providing reliable core functionalities while creating a robust foundation for future improvements.
 
----
+
 
 ## **License**
 This software is available for educational and reference use. For commercial or enterprise use, please contact us.
 
----
+
 
 ## **Contact and Support**
 Do you have any questions or suggestions? Reach out to us:
