@@ -42,4 +42,25 @@ public class DataController {
         this.cleaningService = cleaningService;
         this.predictionService = predictionService;
     }
+
+
+
+    /**
+     * Handles a prediction request by cleaning the input data and generating a prediction.
+     *
+     * Workflow:
+     * 1. Cleans the raw data using the DataCleaningService.
+     * 2. Passes the cleaned data to the PredictionService to generate a prediction result.
+     *
+     * @param data The raw input data to be processed.
+     * @return A {@link PredictionResult} containing the prediction outcome and message.
+     */
+    public PredictionResult handlePredictionRequest(List<DataPoint> data) {
+        // Step 1: Clean the input data
+        List<DataPoint> cleanedData = cleaningService.cleanData(data);
+
+
+        // Step 2: Generate a prediction using the cleaned data
+        return predictionService.predict(cleanedData);
+    }
 }
