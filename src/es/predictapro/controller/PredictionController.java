@@ -31,4 +31,18 @@ public class PredictionController {
     public PredictionController(PredictionService predictionService) {
         this.predictionService = predictionService;
     }
+
+
+    /**
+     * Handles a prediction request.
+     * <p>
+     * This method directly delegates the prediction task to the {@link PredictionService}.
+     * </p>
+     *
+     * @param data A list of {@link DataPoint} objects to be used for prediction.
+     * @return A {@link PredictionResult} containing the predicted value and related details.
+     */
+    public PredictionResult handlePrediction(List<DataPoint> data) {
+        return predictionService.predict(data);
+    }
 }
