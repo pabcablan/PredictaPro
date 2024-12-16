@@ -1,7 +1,9 @@
 # **PredictaPro**
 ## **Overview**
+
 PredictaPro is a modular and efficient application designed to process, analyze, and visualize data intuitively. It provides essential functionalities for handling datasets and supports users in cleaning, 
 analyzing, and predicting trends from data. PredictaPro is in its initial version and aims to be a user-friendly and flexible tool for datasets of any size.
+
 ---
 
 ## **Key Features**
